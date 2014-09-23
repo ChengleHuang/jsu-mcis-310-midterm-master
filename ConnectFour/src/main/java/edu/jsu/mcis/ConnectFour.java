@@ -19,15 +19,15 @@ public class ConnectFour {
     }
     
     public Token getTopOfColumn(int col) {
-        return Token.EMPTY;
+        return Token.Empty;
     }
     
     public int getHeightOfColumn(int col) {
-        return -1;
+        return 0;
     }
     
     public boolean dropTokenInColumn(int col) {
-        return false;
+        return true;
     }
     
     public Result getResult() {
